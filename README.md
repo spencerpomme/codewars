@@ -35,14 +35,14 @@ First time 5kyu for any language | Go see a [Kaixinmahua](http://www.kaixinmahua
 **Overall 5kyu** | Go to a symphony concert🎶
 C++ upgrade to 4kyu | Subscribe 
 **Overall 4kyu** | Buy a book📘 that I always wanted
-Python 3kyu | TBD
-**Overall 3kyu** | 温泉♨️旅行に行く
-Python 2kyu | TBD
+Python 3kyu | Dine at [here](http://www.wangsteak.com.cn/)
+**Overall 3kyu** | 温泉♨️旅行に行くんだ‼
+Python 2kyu |  
 C++ 2kyu | Get a cat🐈
 **Overall 2kyu** | Buy [this watch](https://seikousa.com/collections/essentials/products/sne507)
 **Overall 1kyu** | The end of this stage of journey. Buy [this watch](https://www.citizenwatch.com/us/en/product/NB0046-51L.html?cgid=mens#prefn1=colorFilter&srule=high-low&prefv1=Two-Tone&start=9)
 
-**After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story.
+**After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
 
 ### Check List:
 - [ ] C++ upgrade to 7kyu
