@@ -1,7 +1,7 @@
 # codewars
 #### My crusade to 1 kyu. 
 
-Alright, alright, I find myself かなり下手 as a programmer than I supposed to be. Although I'm about to graduate from gradudate school and spent a lot of time doing dissertation on deep learning and data mining on urban related fields, my whiteboard coding interviews are often **as miserable as うんこ**. So it's time to make a difference! 
+Alright, alright, I find myself かなり下手 as a programmer than I supposed to be. Although I'm about to graduate from gradudate school, my whiteboard coding interviews are often **as miserable as うんこ**. So it's time to make a difference! 
 
 <img src="assets/act3.png" width="500">
 
@@ -17,7 +17,7 @@ C++, Python🐍 and Haskell.
 
 The reason why I choose the above three languages are:
 
-1. They seem to cover a broad spectrum of programming language paradigms
+1. They together seem to cover a broad spectrum of programming language paradigms
 2. I had most experience with the previous two and really like to learn the third
 3. I used/ will use them in study/research/work a lot.
 
