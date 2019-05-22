@@ -1,7 +1,7 @@
 # codewars
-My crusade to 1 kyu. 
+#### My crusade to 1 kyu. 
 
-Alright, alright, I find myself かなり下手 as a coder. Although I'm about to graduate from gradudate school, My whiteboard coding are often **miserable as hell**. So it's time to make a difference! 
+Alright, alright, I find myself かなり下手 as a programmer than I supposed to be. Although I'm about to graduate from gradudate school and spent a lot of time doing dissertation on deep learning and data mining on urban related fields, my whiteboard coding interviews are often **as miserable as うんこ**. So it's time to make a difference! 
 
 ![S.H.I.T.](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiL8IXFo6_iAhXcIDQIHaBtAPoQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DD3erRsVfBT0&psig=AOvVaw0ATx3HAutbyAdN75KUG7Lx&ust=1558619298135897)
 
