@@ -33,14 +33,14 @@ Any language upgrade to 6kyu | Go to a good seafood🦀 buffet
 **Overall 6kyu** | Subscribe 6 month's [red](https://www.codewars.com/subscribe) of codewars
 First time 5kyu for any language | Go see a [Kaixinmahua](http://www.kaixinmahua.com.cn/) drama🎭
 **Overall 5kyu** | Go to a symphony concert🎶
-C++ upgrade to 4kyu | A Tour to museum
+C++ upgrade to 4kyu | A Tour to museum🎨
 **Overall 4kyu** | Buy a book📘 that I always wanted
 Python 3kyu | Go to an immersive theatre🎭🎭
 **Overall 3kyu** | 温泉♨️旅行に行くんだ‼
 Python 2kyu | Buy [AriPods]🎧
 C++ 2kyu | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate
 **Overall 2kyu** | Get a cat🐈? Maybe, TBD
-**Overall 1kyu** | The end of this stage of journey. Buy [this watch](https://www.citizenwatch.com/us/en/product/NB0046-51L.html?cgid=mens#prefn1=colorFilter&srule=high-low&prefv1=Two-Tone&start=9) as **"kyu belt"**.
+**Overall 1kyu** | The end of this stage of journey. Buy [this watch⌚](https://www.citizenwatch.com/us/en/product/NB0046-51L.html?cgid=mens#prefn1=colorFilter&srule=high-low&prefv1=Two-Tone&start=9) as **"kyu belt"**.
 
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
 
@@ -61,4 +61,7 @@ C++ 2kyu | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate
 - [ ] **Overall 1kyu**
 - [ ] 9dan🤪?
 
+---
++ My codewars account is [this](https://www.codewars.com/users/spencerpomme). All activities are transparent.
 
++ I'll update photos recording the achievements on my instagram account with #codewarschallenge#. I don't know how long this challenge would take but it is really going to be fun.
