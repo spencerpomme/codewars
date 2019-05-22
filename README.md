@@ -7,7 +7,7 @@ Alright, alright, I find myself かなり下手 as a programmer than I supposed 
 
 ### So here's the plan:
 
-I'll practice **every day** on coding, from simple task to the more sophisticated ones. Originally I thought about the famous (or infamous?🙉) [Leetcode](https://leetcode.com/), but later I think this is mostly focused on algorithm and the language specific tricks and gotchas are not paid as much attention. Maybe I will finally come back for it but obviously not at this stage.
+I'll practice **every day** on coding, from simple task to the more sophisticated ones. Originally I thought about the famous (or infamous?🙉) [Leetcode](https://leetcode.com/), but later I think this is mostly focused on algorithm and the language specific tricks are not paid as much attention. Maybe I will finally come back for it but obviously not at this stage (become more fluent in the language itself).
 
 So, after a quick investigation, I decided to use [codewars](https://www.codewars.com/) (another famous coding site) for this purpose.
 
