@@ -29,18 +29,18 @@ Task | Prize
 ------------|------
 C++ upgrade to 7kyu | A 🍔 for me who is currently on a diet
 **Overall 7kyu** | Go watch a movie🍿
-Any language upgrade to 6kyu | Go to a good seafood🦐🦀 buffet
+Any language upgrade to 6kyu | Go to a good seafood🦀 buffet
 **Overall 6kyu** | Subscribe 6 month's [red](https://www.codewars.com/subscribe) of codewars
 First time 5kyu for any language | Go see a [Kaixinmahua](http://www.kaixinmahua.com.cn/) drama🎭
 **Overall 5kyu** | Go to a symphony concert🎶
-C++ upgrade to 4kyu | Subscribe 
+C++ upgrade to 4kyu | A Tour to museum
 **Overall 4kyu** | Buy a book📘 that I always wanted
-Python 3kyu | Dine at [here](http://www.wangsteak.com.cn/)
+Python 3kyu | Go to an immersive theatre🎭🎭
 **Overall 3kyu** | 温泉♨️旅行に行くんだ‼
-Python 2kyu |  
-C++ 2kyu | Get a cat🐈
-**Overall 2kyu** | Buy [this watch](https://seikousa.com/collections/essentials/products/sne507)
-**Overall 1kyu** | The end of this stage of journey. Buy [this watch](https://www.citizenwatch.com/us/en/product/NB0046-51L.html?cgid=mens#prefn1=colorFilter&srule=high-low&prefv1=Two-Tone&start=9)
+Python 2kyu | Buy [AriPods]🎧
+C++ 2kyu | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate
+**Overall 2kyu** | Get a cat🐈? Maybe, TBD
+**Overall 1kyu** | The end of this stage of journey. Buy [this watch](https://www.citizenwatch.com/us/en/product/NB0046-51L.html?cgid=mens#prefn1=colorFilter&srule=high-low&prefv1=Two-Tone&start=9) as **"kyu belt"**.
 
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
 
