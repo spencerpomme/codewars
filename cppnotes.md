@@ -1,6 +1,6 @@
 # C++ Notes For Python Programmers
 
-This note is for Python programmers to pick up C++ in various day to day tasks when writing codes. You may want to get some basic understanding of C++ before reading this note.  Here are some suggested resources:
+This note is for Python:snake: programmers to pick up C++ in various day to day tasks when writing codes. You may want to get some basic understanding of C++ before reading this note.  Here are some suggested resources:
 
 + Udacity free course: [C++ for Programmers](https://classroom.udacity.com/courses/ud210)
 
@@ -8,9 +8,9 @@ This note is for Python programmers to pick up C++ in various day to day tasks w
 
 + Essential C++ (If you prefer learn as you go)
 
-The above only listed a small fraction of all the good resources, so please feel free to follow your own favorite:smiley:
+The above only listed a small fraction of all the good resources, so please feel free to follow your own favorite! :laughing:
 
-  
+ 
 
 #### 1. Find min/max element in vector
 
@@ -145,12 +145,27 @@ number_float = int("4.24")
 string_num = str(123456)
 ```
 
-Python does all the underlying type conversions for you and protects you from psychological burdens such as following:
+Python does all the underlying type conversions for you and protects you from psychological burdens such as remembering  abbreviated function names:
 
 ```c++
 // String <-> number conversion in C++
+#include <iostream>
+#include <string>
 
+using std::string;
+
+int main() {
+    string integer = "100";
+    string realnum = "123.456";
+    string crazy = "100 23.4 -10";
+    
+    int numi = std::stoi(integer);
+    float numf = std::stof(realnum);
+    
+    
+    return 0;
+}
 ```
 
-
+Consult [stoi](http://www.cplusplus.com/reference/string/stoi/) and [stof](http://www.cplusplus.com/reference/string/stof/) definitions for other use cases. Apart from those, there are in fact a whole family of conversion functions, most of them (if not all of them) provide pointer argument for further manipulation.
 
