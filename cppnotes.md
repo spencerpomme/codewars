@@ -36,3 +36,4 @@ string sliceString (string str) {
 ```
 
 The difference between `str.size() `and `str.length` see [here](<https://stackoverflow.com/questions/905479/stdstring-length-and-size-member-functions>).
+
