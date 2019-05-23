@@ -24,3 +24,15 @@ int findSmallest(vector <int> list) {
 }
 ```
 
+#### Make sub string
+
+```c++
+#include <string>
+using namespace std;
+// remove first and last element in the string:
+string sliceString (string str) {
+	return str.substr(1, str.length()-2);
+}
+```
+
+The difference between `str.size() `and `str.length` see [here](<https://stackoverflow.com/questions/905479/stdstring-length-and-size-member-functions>).
