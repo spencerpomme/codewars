@@ -40,7 +40,7 @@ Python 3kyu | Go to an immersive theatre🎭🎭
 Python 2kyu | Buy [AriPods]🎧
 C++ 2kyu | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate
 **Overall 2kyu** | Get a cat🐈? Maybe, TBD
-**Overall 1kyu** | The end of this stage of journey. Buy [this watch⌚](https://www.citizenwatch.com/us/en/product/NB0046-51L.html?cgid=mens#prefn1=colorFilter&srule=high-low&prefv1=Two-Tone&start=9) as **"kyu belt"**.
+**Overall 1kyu** | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**.
 
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
 
