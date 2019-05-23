@@ -1,18 +1,18 @@
 # C++ Notes For Python Programmers
 
-This note is for Python:snake: programmers to pick up C++ in various day to day tasks when writing codes. You may want to get some basic understanding of C++ before reading this note.  Here are some suggested resources:
+This note is to help Python:snake: programmers who are not a **匠** of C++ to pick it up in various day to day tasks when needed. You may want to get some minimum understanding of language before diving in this note.  Here are some suggested resources:
 
-+ Udacity free course: [C++ for Programmers](https://classroom.udacity.com/courses/ud210)
++ Udacity free course: [C++ for Programmers](https://classroom.udacity.com/courses/ud210) :rocket:
 
-+ C++ Primer 5th Edition (If you have a month or two)
++ C++ Primer 5th Edition (If you have a month or two :snail:) 
 
-+ Essential C++ (If you prefer learn as you go)
++ Essential C++ (If you prefer learn as you go​ :running:) 
 
-The above only listed a small fraction of all the good resources, so please feel free to follow your own favorite! :laughing:
+  The above only listed a small fraction of all the good resources, so please feel free to follow your own favorite! :cowboy_hat_face:
 
  
 
-#### 1. Find min/max element in vector
+#### 1. Find min/max element in a collection
 
 This task is absurdly trivial in Python:
 
@@ -35,7 +35,7 @@ int findSmallest(const std::vector<int>& list) {
 }
 ```
 
-Or you can also do:
+Or you can also do this:
 ```c++
 // using sort
 #include <vector>
