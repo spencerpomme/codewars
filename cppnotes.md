@@ -133,5 +133,24 @@ vector<string> split(const string& str, string delimiter){
 
 #### 4. String to number and vise versa
 
+In Python this operation is very intuitive:
+
+```python
+# string -> number
+int_str = "100"
+number_int = int(int_str)
+number_float = int("4.24")
+
+# number -> string
+string_num = str(123456)
+```
+
+Python does all the underlying type conversions for you and protects you from psychological burdens such as following:
+
+```c++
+// String <-> number conversion in C++
+
+```
+
 
 
