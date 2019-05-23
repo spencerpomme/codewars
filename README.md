@@ -45,8 +45,8 @@ C++ 2kyu | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
 
 ### Check List:
-- [ ] C++ upgrade to 7kyu
-- [ ] **Overall 7kyu**
+- [x] C++ upgrade to 7kyu
+- [x] **Overall 7kyu**
 - [ ] Any language upgrade to 6kyu
 - [ ] **Overall 6kyu**
 - [ ] First time 5kyu for any language
