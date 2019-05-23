@@ -13,13 +13,15 @@ So, after a quick investigation, I decided to use [codewars](https://www.codewar
 
 **Languages:**
 
-C++, Python🐍 and Haskell.
+C++ and Python🐍 ~~and Haskell~~
 
-The reason why I choose the above three languages are:
+> Haskell is really an optional task. Focus, focus, focus.
 
-1. They together seem to cover a broad spectrum of programming language paradigms
-2. I had most experience with the previous two and really like to learn the third
-3. I used/ will use them in study/research/work a lot.
+The reason why I choose the above two languages are:
+
+1. They are used together a lot in data science
+2. I had most experience with these two and really like to bring familiarity to the next level
+3. I will use them in work a lot in the future
 
 **To become an 1kyu is not a piece of cake (at least for me🙄 ). And it could take long to finally get there. So I made an Achievement-Reward list to encourage me keep going:**
 
@@ -43,6 +45,8 @@ The reason why I choose the above three languages are:
 | **Overall 1kyu**                 | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**. |
 
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
+
+
 
 ### Check List:
 - [x] C++ upgrade to 7kyu:  2019/5/23✔️
