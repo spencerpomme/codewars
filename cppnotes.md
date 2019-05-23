@@ -1,6 +1,6 @@
 # C++ Notes For Python Programmers
 
-This note is for Python programmers to pick up C++ in various daily tasks when writing code. You may want to get some basic understanding of C++ before reading this note.  Here are some suggested resources:
+This note is for Python programmers to pick up C++ in various day to day tasks when writing codes. You may want to get some basic understanding of C++ before reading this note.  Here are some suggested resources:
 
 + Udacity free course: [C++ for Programmers](https://classroom.udacity.com/courses/ud210)
 
@@ -128,6 +128,10 @@ vector<string> split(const string& str, string delimiter){
     return res;
 }
 ```
+
+
+
+#### 4. String to number and vise versa
 
 
 
