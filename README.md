@@ -1,7 +1,7 @@
 # codewars
 #### My crusade to 1 kyu. 
 
-Alright, alright, I find myself かなり下手 as a programmer than I supposed to be. Although I'm about to graduate from gradudate school and spent a lot of time doing dissertation on deep learning and data mining on urban related fields, my whiteboard coding interviews are often **as miserable as うんこ**. So it's time to make a difference! 
+Alright, alright, I find myself かなり下手 as a programmer than I supposed to be. Although I'm about to graduate from gradudate school, my whiteboard coding interviews are often **as miserable as うんこ**. So it's time to make a difference! 
 
 <img src="assets/act3.png" width="500">
 
@@ -17,7 +17,7 @@ C++, Python🐍 and Haskell.
 
 The reason why I choose the above three languages are:
 
-1. They seem to cover a broad spectrum of programming language paradigms
+1. They together seem to cover a broad spectrum of programming language paradigms
 2. I had most experience with the previous two and really like to learn the third
 3. I used/ will use them in study/research/work a lot.
 
@@ -40,7 +40,7 @@ Python 3kyu | Go to an immersive theatre🎭🎭
 Python 2kyu | Buy [AriPods]🎧
 C++ 2kyu | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate
 **Overall 2kyu** | Get a cat🐈? Maybe, TBD
-**Overall 1kyu** | The end of this stage of journey. Buy [this watch⌚](https://www.citizenwatch.com/us/en/product/NB0046-51L.html?cgid=mens#prefn1=colorFilter&srule=high-low&prefv1=Two-Tone&start=9) as **"kyu belt"**.
+**Overall 1kyu** | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**.
 
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
 
