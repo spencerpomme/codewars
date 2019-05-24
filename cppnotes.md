@@ -8,7 +8,7 @@ This note is to help Python:snake: programmers who are not a **匠** of C++ to p
 
 + Essential C++ (If you prefer learn as you go​ :running:) 
 
-  The above only listed a small fraction of all the good resources, so please feel free to follow your own favorite! :cowboy_hat_face:
+The above only listed a small fraction of all the good resources, so please feel free to follow your own favorite! :cowboy_hat_face:
 
  
 
@@ -168,4 +168,70 @@ int main() {
 ```
 
 Consult [stoi](http://www.cplusplus.com/reference/string/stoi/) and [stof](http://www.cplusplus.com/reference/string/stof/) definitions for other use cases. Apart from those, there are in fact a whole family of conversion functions, most of them (if not all of them) provide pointer argument for further manipulation.
+
+
+
+#### 5. Obtain an unduplicated collection (List/Vector)
+
+To achieve this in Python you can convert the list to a set then convert back:
+
+```python
+dup = [1, 1, 3, 4, 4, 5]
+unq = list(set(dup))
+print(unq)
+# >>> [1, 3, 4, 5]
+```
+
+In C++ similar manipulation can be done too:
+
+```c++
+#include <set>
+#include <vector>
+
+using std::set;
+using std::vector;
+
+int main() {
+    vector<int> v{1, 1, 2, 3, 4, 4, 4, 5};
+    set<int> s(v.begin(), v.end());
+    
+    return 0;
+}
+```
+
+
+
+#### 6. Get type of a value
+
+In Python you can use the `type` function:
+
+```python
+val = 3
+print(type(val))
+# >>> int
+```
+
+In C++ is also very simple:
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name = "Harry Potter";
+    cout << "Name " << name << " is of type " << typeid(name).name() << endl;
+    
+    return 0;
+}
+// >>> class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >
+```
+
+You can see that the readability of the C++ version of 'type' is awful.  But indeed, **string in C++ is a template instead of a type**. If try with built-in types, then:
+
+```c++
+int value = 3;
+cout << typeid(value).name();
+// >>> int
+```
 
