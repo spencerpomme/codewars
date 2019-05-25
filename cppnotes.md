@@ -285,3 +285,28 @@ In C++ we can do the similar:
 std::sort(s.begin(), s.end(), [](const char& a, const char& b) { return a > b; });
 ```
 
+
+
+#### 9. String Replace
+
+In Python:
+
+```python
+dna = "ACTGACTGGAACCTGACTA"
+rna = dna.replace("T", "U")
+```
+
+In C++ is equally simple:
+
+```c++
+#include <string>
+using std::string;
+
+int main()
+{
+	string dna = "ATCGATCG";
+	replace(dna.begin(), dna.end(), 'T', 'U');
+	return 0;
+}
+```
+
