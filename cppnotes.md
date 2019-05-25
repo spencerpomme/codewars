@@ -235,3 +235,32 @@ cout << typeid(value).name();
 // >>> int
 ```
 
+
+
+#### 7. String upper and lower
+
+In Python:
+
+```python
+s = "abc"
+S = s.upper()
+# >>> "ABC"
+s = S.lower()
+# >>> "abc"
+```
+
+In C++ you need to modify at character level:
+
+```c++
+#include <string>
+
+using std::string;
+int main() {
+    string s = "abcdefghijklmn";
+	
+	for (string::iterator ic = s.begin(); ic < s.end(); ++ic) {
+		*ic = toupper(*ic);
+	}
+}
+```
+
