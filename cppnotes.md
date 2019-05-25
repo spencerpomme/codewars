@@ -282,6 +282,7 @@ In C++ we can do the similar:
 ```c++
 // s could be any sequence, e.g. string, vector, set, etc.
 // default sort ordering is ascending, provide a compare object if need descend ordering
+#include <algorithm>
 std::sort(s.begin(), s.end(), [](const char& a, const char& b) { return a > b; });
 ```
 
@@ -310,3 +311,29 @@ int main()
 }
 ```
 
+
+
+#### 10. Accumulate sum of a collection
+
+In Python you can use functional tool:
+
+```python
+from functools import reduce
+
+ls = [1,2,3,4,5,6,7,8,9,10]
+sum_ls = reduce(lambda x,y: x+y, ls)
+```
+
+In C++ there's also a similar functionality:
+
+```c++
+#include <vector>
+#include <numeric>
+using namespace std;
+
+int positive_sum (const vector<int> arr){
+  return accumulate(arr.begin(), arr.end(), 0, [](int a, int b) {return a + b;});
+}
+```
+
+The C++ solution also used lambda, and the accumulate can serve as similar goal in this scenario. But again, Python code is more terse.
