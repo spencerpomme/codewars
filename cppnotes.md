@@ -264,3 +264,24 @@ int main() {
 }
 ```
 
+#### 8. Sort a collection
+
+In Python:
+
+```python
+ls = [1,5,7,2,9,4]
+new_ls = sorted(ls, reverse=False)
+# new_ls: [1,2,4,5,7,9]
+# or inplace sort:
+ls.sort(reverse=True)
+# ls = [9, 7, 5, 4, 2, 1]
+```
+
+In C++ we can do the similar:
+
+```c++
+// s could be any sequence, e.g. string, vector, set, etc.
+// default sort ordering is ascending, provide a compare object if need descend ordering
+std::sort(s.begin(), s.end(), [](const char& a, const char& b) { return a > b; });
+```
+
