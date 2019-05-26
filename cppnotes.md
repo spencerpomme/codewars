@@ -157,17 +157,25 @@ using std::string;
 int main() {
     string integer = "100";
     string realnum = "123.456";
-    string crazy = "100 23.4 -10";
-    
+    string lli = "1234567891234567";
+    // string to number
     int numi = std::stoi(integer);
     float numf = std::stof(realnum);
+    long long int numlli = std::stoll()
     
+    // number to string
+    int number = 10;
+    int fnum = 10.11;
+    string snum = to_string(number);
+    string sfnm = to_string(fnum);
     
     return 0;
 }
 ```
 
-Consult [stoi](http://www.cplusplus.com/reference/string/stoi/) and [stof](http://www.cplusplus.com/reference/string/stof/) definitions for other use cases. Apart from those, there are in fact a whole family of conversion functions, most of them (if not all of them) provide pointer argument for further manipulation.
+Consult [stoi](http://www.cplusplus.com/reference/string/stoi/) , [stof](http://www.cplusplus.com/reference/string/stof/)  and [to_string](<http://www.cplusplus.com/reference/string/to_string/>) definitions for other use cases. 
+
+Apart from those, there are in fact a whole family of conversion functions, most of them (if not all of them) provide pointer argument for further manipulation.  Search for more info [here](<http://www.cplusplus.com/reference/>).
 
 
 
@@ -263,6 +271,19 @@ int main() {
 	}
 }
 ```
+
+Another more compact way of doing this is :
+
+```c++
+#include <algorithm>
+#include <string> 
+using std::string;
+
+string data = "Abc"; 
+transform(data.begin(), data.end(), data.begin(), tolower);
+```
+
+
 
 #### 8. Sort a collection
 
