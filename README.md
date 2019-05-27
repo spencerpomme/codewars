@@ -27,31 +27,31 @@ The reason why I choose the above two languages are:
 
 ### Achievement Reward List from 9kyu to 1kyu:
 
-| Task                             | Prize                                                        |
-| -------------------------------- | ------------------------------------------------------------ |
-| C++ upgrade to 7kyu              | A 🍔 for me who is currently on a diet                        |
-| **Both 7kyu**                    | Go watch a movie🍿                                            |
-| Any language upgrade to 6kyu     | Go to a good seafood🦀 buffet                                 |
-| **Both 6kyu**                    | Subscribe 6 month's [red](https://www.codewars.com/subscribe) of codewars |
-| First time 5kyu for any language | Go see a [Kaixinmahua](http://www.kaixinmahua.com.cn/) drama🎭 |
-| **Both 5kyu**                    | Go to a symphony concert🎶                                    |
-| C++ upgrade to 4kyu              | A Tour to museum🎨                                            |
-| **Both 4kyu**                    | Buy a book📘 that I always wanted                             |
-| Python 3kyu                      | Go to an immersive theatre🎭🎭                                 |
-| **Both 3kyu**                    | 温泉♨️旅行に行くんだ‼                                         |
-| Python 2kyu                      | Buy [AriPods]🎧                                               |
-| C++ 2kyu                         | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate      |
-| **Both 2kyu**                    | Get a cat🐈? Maybe, TBD                                       |
-| **Both 1kyu**                    | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**. |
+| Task                             | Prize                                                        | Moment |
+| -------------------------------- | ------------------------------------------------------------ | ------ |
+| C++ upgrade to 7kyu              | A 🍔 for me who is currently on a diet                        |        |
+| **Both 7kyu**                    | Go watch a movie🍿                                            |        |
+| Any language upgrade to 6kyu     | Go to a good seafood🦀 buffet                                 |        |
+| **Both 6kyu**                    | Subscribe 6 month's [red](https://www.codewars.com/subscribe) of codewars |        |
+| First time 5kyu for any language | Go see a [Kaixinmahua](http://www.kaixinmahua.com.cn/) drama🎭 |        |
+| **Both 5kyu**                    | Go to a symphony concert🎶                                    |        |
+| C++ upgrade to 4kyu              | A Tour to museum🎨                                            |        |
+| **Both 4kyu**                    | Buy a book📘 that I always wanted                             |        |
+| Python 3kyu                      | Go to an immersive theatre🎭🎭                                 |        |
+| **Both 3kyu**                    | 温泉♨️旅行に行くんだ‼                                         |        |
+| Python 2kyu                      | Buy [AriPods]🎧                                               |        |
+| C++ 2kyu                         | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate      |        |
+| **Both 2kyu**                    | Get a cat🐈? Maybe, TBD                                       |        |
+| **Both 1kyu**                    | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**. |        |
 
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
 
 
 
 ### Check List:
-- [x] C++ upgrade to 7kyu:  2019/5/23✔️
-- [x] **Both 7kyu**:  2019/5/23✔️
-- [ ] Any language upgrade to 6kyu
+- [x] C++ upgrade to 7kyu:  2019/5/23
+- [x] **Both 7kyu**:  2019/5/23
+- [x] Any language upgrade to 6kyu: 2019/5/27
 - [ ] **Both 6kyu**
 - [ ] First time 5kyu for any language
 - [ ] **Both 5kyu**
