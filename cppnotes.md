@@ -358,3 +358,25 @@ int positive_sum (const vector<int> arr){
 ```
 
 The C++ solution also used lambda, and the accumulate can serve as similar goal in this scenario. But again, Python code is more terse.
+
+
+
+#### 11. Sub-string
+
+In Python:
+
+```python
+s = "string"
+sb = s[2:4] # >>> "ri"
+sb = s[:3]  # >>> "str"
+sb = s[3:]  # >>> "ing"
+```
+
+In C++  you need this function:
+
+```c++
+#include <string>
+string input = "string";
+input.substr(size/2-1, 2); // get the middle two
+```
+
