@@ -52,7 +52,7 @@ The reason why I choose the above two languages are:
 - [x] C++ upgrade to 7kyu:  2019/5/23
 - [x] **Both 7kyu**:  2019/5/23
 - [x] Any language upgrade to 6kyu: 2019/5/27
-- [ ] **Both 6kyu**
+- [x] **Both 6kyu**： 2019/5/30
 - [ ] First time 5kyu for any language
 - [ ] **Both 5kyu**
 - [ ] C++ upgrade to 4kyu
