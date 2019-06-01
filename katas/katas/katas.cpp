@@ -5,8 +5,10 @@
 
 int main()
 {
-	int num = 1980;
-	cout << centuryFromYear(num) << endl;
+	string animal = "blue dog";
+	string dish = "bacon log";
+	cout << *animal.begin() << " " << *dish.begin() << endl;
+	cout << *(animal.end() - 1) << " " << *(dish.end()-1) << endl;
 	return 0;
 }
 
