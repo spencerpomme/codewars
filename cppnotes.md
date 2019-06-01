@@ -414,3 +414,15 @@ s.back();
 
 The above two get char instead of string.
 
+
+
+#### 14. Another way to iterate over a vector
+
+Instead of using iterator, you can use a syntax sugar like this:
+
+```c++
+for (auto x: vec) {
+    ...
+}
+```
+
