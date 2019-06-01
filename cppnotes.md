@@ -380,3 +380,37 @@ string input = "string";
 input.substr(size/2-1, 2); // get the middle two
 ```
 
+
+
+#### 12. Vector indexing reverse iteration
+
+In Python indexing is easy. But in C++ there are many ways to do it:
+
+```c++
+#include <vector>
+
+// reverse iterate
+std::vector<int> evenNumbers(std::vector<int> arr, int n) {
+    std::vector<int> res = {};
+    for (std::vector<int>::iterator it = arr.end()-1; n > 0; --it)
+        if (*it % 2 == 0) {
+            res.insert(res.begin(), *it);
+            --n;
+        }
+    return res;
+}
+```
+
+
+
+#### 13. Get first and last element of string
+
+In Python just `s[0] ` and `s[-1]` are good enough. In C++ there are many ways doing it. One possible way is:
+
+```c++
+s.front();
+s.back();
+```
+
+The above two get char instead of string.
+
