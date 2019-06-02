@@ -35,7 +35,8 @@ The reason why I choose the above two languages are:
 | **Both 5kyu**                    | Buy **Total War: Three Kingdoms**                            |        |
 | C++ upgrade to 4kyu              | Buy a book📘 that I always wanted                             |        |
 | **Both 4kyu**                    | Subscribe 6 month red                                        |        |
-| **Both 3kyu**                    | Buy [AirPods]🎧                                               |        |
+| C++ 3kyu                         | 话剧                                                         |        |
+| **Both 3kyu**                    | Buy  AirPods 🎧                                               |        |
 | **Both 2kyu**                    | 温泉♨️旅行                                                    |        |
 | **Both 1kyu**                    | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**. |        |
 
@@ -52,6 +53,7 @@ The reason why I choose the above two languages are:
 - [ ] **Both 5kyu**
 - [ ] C++ upgrade to 4kyu
 - [ ] **Both 4kyu**
+- [ ] C++ upgrade to 3kyu
 - [ ] **Both 3kyu**
 - [ ] **Both 2kyu**
 - [ ] **Both 1kyu**
