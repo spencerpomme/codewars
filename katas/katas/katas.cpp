@@ -5,10 +5,10 @@
 
 int main()
 {
-	string animal = "blue dog";
-	string dish = "bacon log";
-	cout << *animal.begin() << " " << *dish.begin() << endl;
-	cout << *(animal.end() - 1) << " " << *(dish.end()-1) << endl;
+	string s1 = "abcdefgfedcba";
+	string s2 = "ac";
+	cout << (isPalindrom(s1) ? "True" : "False") << endl;
+	cout << (isPalindrom(s2) ? "True" : "False") << endl;
 	return 0;
 }
 
