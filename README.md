@@ -25,20 +25,20 @@ The reason why I choose the above two languages are:
 
 ### Achievement Reward List from 9kyu to 1kyu:
 
-| Task                             | Prize                                                        | Moment |
-| -------------------------------- | ------------------------------------------------------------ | ------ |
-| C++ upgrade to 7kyu              | A 🍔 for me who is currently on a diet                        |        |
-| **Both 7kyu**                    | Go watch a movie🍿                                            |        |
-| Any language upgrade to 6kyu     | Go to a good seafood🦀 buffet                                 |        |
-| **Both 6kyu**                    | Subscribe 1 month's [red](https://www.codewars.com/subscribe) of codewars |        |
-| First time 5kyu for any language | Mountain Climbing tour:mountain:                             |        |
-| **Both 5kyu**                    | Buy **Total War: Three Kingdoms**                            |        |
-| C++ upgrade to 4kyu              | Buy a book📘 that I always wanted                             |        |
-| **Both 4kyu**                    | Subscribe 6 month red                                        |        |
-| C++ 3kyu                         | 话剧                                                         |        |
-| **Both 3kyu**                    | Buy  AirPods 🎧                                               |        |
-| **Both 2kyu**                    | 温泉♨️旅行                                                    |        |
-| **Both 1kyu**                    | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**. |        |
+| Task                             | Prize                                                        | Prize |
+| -------------------------------- | ------------------------------------------------------------ | ----- |
+| C++ upgrade to 7kyu              | A 🍔 for me who is currently on a diet                        | ✔️     |
+| **Both 7kyu**                    | Go watch a movie🍿                                            |       |
+| Any language upgrade to 6kyu     | Go to a good seafood🦀 buffet                                 |       |
+| **Both 6kyu**                    | Subscribe 1 month's [red](https://www.codewars.com/subscribe) of codewars | ✔️     |
+| First time 5kyu for any language | Mountain Climbing tour:mountain:                             |       |
+| **Both 5kyu**                    | Buy **Total War: Three Kingdoms**                            |       |
+| C++ upgrade to 4kyu              | Buy a book📘 that I always wanted                             |       |
+| **Both 4kyu**                    | Subscribe 6 month red                                        |       |
+| C++ 3kyu                         | 话剧                                                         |       |
+| **Both 3kyu**                    | Buy AirPods:tm: 🎧                                            |       |
+| **Both 2kyu**                    | 温泉♨️旅行                                                    |       |
+| **Both 1kyu**                    | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**. |       |
 
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
 
