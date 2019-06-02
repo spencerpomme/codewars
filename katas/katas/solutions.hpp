@@ -16,6 +16,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+bool isPalindrom(const std::string& str);
 int centuryFromYear(int year);
 int points(const std::array<std::string, 10> & games);
 unsigned short int expressionsMatter(unsigned short int a, unsigned short int b, unsigned short int c);
@@ -38,6 +39,17 @@ template <typename T>
 void print(T);
 
 // defined functions:
+
+bool isPalindrom(const std::string& str)
+{
+	tolower(str);
+	int mid = str.size() / 2;
+	for (int i = 0; i < mid; ++i)
+		if (str.at(i) != str.at((str.size() - 1 - i)))
+			return false;
+	return true;
+}
+
 int centuryFromYear(int year)
 {
 	return (year / 100) + ((year % 100 > 0) ? 1 : 0);
