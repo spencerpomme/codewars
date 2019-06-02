@@ -13,9 +13,7 @@ So, after a quick investigation, I decided to use [codewars](https://www.codewar
 
 **Languages:**
 
-C++ and Python🐍 ~~and Haskell~~
-
-> Haskell is really an optional task. Focus, focus, focus.
+C++ and Python🐍
 
 The reason why I choose the above two languages are:
 
@@ -32,16 +30,13 @@ The reason why I choose the above two languages are:
 | C++ upgrade to 7kyu              | A 🍔 for me who is currently on a diet                        |        |
 | **Both 7kyu**                    | Go watch a movie🍿                                            |        |
 | Any language upgrade to 6kyu     | Go to a good seafood🦀 buffet                                 |        |
-| **Both 6kyu**                    | Subscribe 6 month's [red](https://www.codewars.com/subscribe) of codewars |        |
-| First time 5kyu for any language | Go see a [Kaixinmahua](http://www.kaixinmahua.com.cn/) drama🎭 |        |
-| **Both 5kyu**                    | Go to a symphony concert🎶                                    |        |
-| C++ upgrade to 4kyu              | A Tour to museum🎨                                            |        |
-| **Both 4kyu**                    | Buy a book📘 that I always wanted                             |        |
-| Python 3kyu                      | Go to an immersive theatre🎭🎭                                 |        |
-| **Both 3kyu**                    | 温泉♨️旅行に行くんだ‼                                         |        |
-| Python 2kyu                      | Buy [AriPods]🎧                                               |        |
-| C++ 2kyu                         | Dine [here🥩](http://www.wangsteak.com.cn/) to celebrate      |        |
-| **Both 2kyu**                    | Get a cat🐈? Maybe, TBD                                       |        |
+| **Both 6kyu**                    | Subscribe 1 month's [red](https://www.codewars.com/subscribe) of codewars |        |
+| First time 5kyu for any language | Mountain Climbing tour:mountain:                             |        |
+| **Both 5kyu**                    | Buy **Total War: Three Kingdoms**                            |        |
+| C++ upgrade to 4kyu              | Buy a book📘 that I always wanted                             |        |
+| **Both 4kyu**                    | Subscribe 6 month red                                        |        |
+| **Both 3kyu**                    | Buy [AirPods]🎧                                               |        |
+| **Both 2kyu**                    | 温泉♨️旅行                                                    |        |
 | **Both 1kyu**                    | The end of this stage of journey. Buy [this watch⌚](https://www.citizen.com.hk/html/en/products/eco-drive/super-titanium/ca4241-55a.html) as **"kyu belt"**. |        |
 
 **After this, I know there are also 'Dan' (from 1dan to 9dan).** But that would be another story. 
@@ -57,13 +52,9 @@ The reason why I choose the above two languages are:
 - [ ] **Both 5kyu**
 - [ ] C++ upgrade to 4kyu
 - [ ] **Both 4kyu**
-- [ ] Python 3kyu
 - [ ] **Both 3kyu**
-- [ ] Python 2kyu
-- [ ] C++ 2kyu
 - [ ] **Both 2kyu**
 - [ ] **Both 1kyu**
-- [ ] 9dan🤪?
 
 ---
 + My codewars account is [this](https://www.codewars.com/users/spencerpomme). All activities are transparent.
