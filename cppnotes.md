@@ -527,3 +527,37 @@ double average = std::accumulate(vec.begin(), vec.end(), 0.0) / vec.size();
 
 
 
+#### 20. Use Regular Expression in C++
+
+In Python if you want to use regex you'll need to import the [re](<https://docs.python.org/3/library/re.html>) library:
+
+```python
+import re
+```
+
+In C++ there is a similar library named [regex](<http://www.cplusplus.com/reference/regex/>):
+
+```c++
+#include <string>
+#include <regex>
+using namespace std;
+
+string fakeBin(string str){
+	str = regex_replace(str, regex("[1234]"), "0");
+	str = regex_replace(str, regex("[56789]"), "1");
+	return str;
+}
+```
+
+
+
+#### 21. Decimal to binary
+
+In Python, it's again ridiculously easy:
+
+```python
+deci = 10
+bina = bin(deci)
+bina = 0b1111
+deci = int(bina)
+```

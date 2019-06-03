@@ -19,7 +19,6 @@ using std::endl;
 string to_postfix(string infix);
 bool isPalindrom(const std::string& str);
 int centuryFromYear(int year);
-int points(const std::array<std::string, 10> & games);
 unsigned short int expressionsMatter(unsigned short int a, unsigned short int b, unsigned short int c);
 vector<int> solve(vector<string> arr);
 string DNAtoRNA(string dna);
@@ -57,12 +56,6 @@ bool isPalindrom(const std::string& str)
 int centuryFromYear(int year)
 {
 	return (year / 100) + ((year % 100 > 0) ? 1 : 0);
-}
-
-int points(const array<string, 10> & games) {
-	for (auto it = games.begin(); it < games.end(); ++it)
-		continue; // not finished
-	return 0;
 }
 
 unsigned short int expressionsMatter(unsigned short int a, unsigned short int b, unsigned short int c) {
