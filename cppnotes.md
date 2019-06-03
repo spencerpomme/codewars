@@ -426,3 +426,64 @@ for (auto x: vec) {
 }
 ```
 
+
+
+#### 15. Count number of element
+
+In Python you can count like this:
+
+```python
+ls = [1,1,1,1,3,3,3,4]
+ls.count(1)
+# >>> 4
+```
+
+In C++ this operation is trivial too:
+
+```c++
+#include <algorithm>
+#include <vector>
+
+int count_sheep(std::vector<bool> v) {
+  return std::count(v.cbegin(), v.cend(), true);
+}
+```
+
+
+
+#### 16. Direct modify a string
+
+In Python string is immutable hence cannot be modified in place. In C++, you can:
+
+```c++
+#include <string>
+
+std::string correct(std::string str) {
+    for (auto &ch : str) {
+        switch (ch) {
+            case '5': ch = 'S';
+            break;
+            case '0': ch = 'O';
+            break;
+            case '1': ch = 'I';
+            break;
+        }
+    }
+    return str;
+}
+```
+
+Just use a reference will do.
+
+
+
+#### 17. Absolute value
+
+In Python `abs` is a built-in function, in C++ you have to include a library named `<cmath>`:
+
+```c++
+#include <cmath>
+
+abs(someNumber);
+```
+
