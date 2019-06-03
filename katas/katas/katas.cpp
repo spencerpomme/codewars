@@ -7,8 +7,8 @@ int main()
 {
 	string s1 = "abcdefgfedcba";
 	string s2 = "ac";
-	cout << (isPalindrom(s1) ? "True" : "False") << endl;
-	cout << (isPalindrom(s2) ? "True" : "False") << endl;
+	int num = 1000;
+	cout << "$" + std::to_string(num);
 	return 0;
 }
 
