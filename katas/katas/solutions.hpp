@@ -42,7 +42,6 @@ void print(T);
 
 bool isPalindrom(const std::string& str)
 {
-	tolower(str);
 	int mid = str.size() / 2;
 	for (int i = 0; i < mid; ++i)
 		if (str.at(i) != str.at((str.size() - 1 - i)))
