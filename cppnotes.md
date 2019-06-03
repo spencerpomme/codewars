@@ -487,3 +487,43 @@ In Python `abs` is a built-in function, in C++ you have to include a library nam
 abs(someNumber);
 ```
 
+
+
+#### 18. Mutate elements in a collection
+
+Python has a handy `map` built in function. In C++ though, you can use:
+
+```c++
+#include <vector>
+#include <algorithm>
+
+std::vector<int> invert(std::vector<int> values)
+{
+    transform(values.begin(), values.end(), values.begin(), std::negate<int>());;
+    return values;
+}
+```
+
+
+
+#### 19. Calculate average of a list of numbers
+
+In Python you can:
+
+```python
+ls = [1,2,3,4,5,6]
+average = sum(ls) / len(ls)
+```
+
+In C++ you'll need to do this:
+
+```c++
+#include <vector>
+#include <numeric>
+vector<int> ls = {1,2,3,4,5,6};
+
+double average = std::accumulate(vec.begin(), vec.end(), 0.0) / vec.size();
+```
+
+
+
