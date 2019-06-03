@@ -16,6 +16,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+string to_postfix(string infix);
 bool isPalindrom(const std::string& str);
 int centuryFromYear(int year);
 int points(const std::array<std::string, 10> & games);
@@ -39,6 +40,10 @@ template <typename T>
 void print(T);
 
 // defined functions:
+
+string to_postfix(string infix) {
+	return "";
+}
 
 bool isPalindrom(const std::string& str)
 {
