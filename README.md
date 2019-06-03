@@ -31,7 +31,7 @@ The reason why I choose the above two languages are:
 | **Both 7kyu**         | Go watch a movie🍿                                            |                                                              |
 | 6kyu for any language | Go to a good seafood🦀 buffet                                 |                                                              |
 | **Both 6kyu**         | Subscribe 1 month's [red](https://www.codewars.com/subscribe) of codewars | [✔️](https://www.instagram.com/p/ByNasvbpfN5/?utm_source=ig_web_copy_link) |
-| 5kyu for any language | Archery 🏹                                                    |                                                              |
+| 5kyu for any language | Museum tour 🏹                                                |                                                              |
 | **Both 5kyu**         | Buy **Total War: Three Kingdoms**                            |                                                              |
 | C++ upgrade to 4kyu   | Buy a book📘 that I always wanted                             |                                                              |
 | **Both 4kyu**         | Subscribe 6 month red                                        |                                                              |
@@ -48,8 +48,8 @@ The reason why I choose the above two languages are:
 - [x] C++ upgrade to 7kyu:  2019/5/23
 - [x] **Both 7kyu**:  2019/5/23
 - [x] Any language upgrade to 6kyu: 2019/5/27
-- [x] **Both 6kyu**： 2019/5/30
-- [ ] First time 5kyu for any language
+- [x] **Both 6kyu**: 2019/5/30
+- [x] First time 5kyu for any language: 2019/6/4
 - [ ] **Both 5kyu**
 - [ ] C++ upgrade to 4kyu
 - [ ] **Both 4kyu**
