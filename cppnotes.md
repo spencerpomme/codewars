@@ -561,3 +561,31 @@ bina = bin(deci)
 bina = 0b1111
 deci = int(bina)
 ```
+
+In C++ you have to do it manually:
+
+```c++
+
+```
+
+
+
+#### 22. Round float to decimal places
+
+In Python:
+
+```python
+round(2.333333333, 2)
+# >>> 2.33
+```
+
+In C++:
+
+```c++
+#include <cmath>
+using std::round
+
+round(2.333333 * 100) / 100;
+// >>> 2.33
+```
+
