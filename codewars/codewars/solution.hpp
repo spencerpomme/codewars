@@ -6,6 +6,7 @@
 #include <set>
 #include <math.h>
 #include <array>
+#include <utility> 
 
 using std::string;
 using std::vector;
@@ -15,7 +16,9 @@ using std::pow;
 using std::cout;
 using std::cin;
 using std::endl;
+using std::pair;
 
+string bingo(vector<pair<string, int>> ticket, int win);
 string to_postfix(string infix);
 bool isPalindrom(const std::string& str);
 int centuryFromYear(int year);
@@ -39,6 +42,23 @@ template <typename T>
 void print(T);
 
 // defined functions:
+
+string bingo(vector<pair<string, int>> ticket, int win)
+{
+	int miniwin = 0;
+	for (auto pair : ticket) {
+		for (char ch : pair.first) {
+			if (int(ch) == pair.second) {
+				++miniwin;
+				break;
+			}
+		}
+	}
+	if (miniwin >= win)
+		return "Winner!";
+	else
+		return "Loser!";
+}
 
 string to_postfix(string infix) {
 	return "";
