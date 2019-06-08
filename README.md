@@ -29,7 +29,7 @@ The reason why I choose the above two languages are:
 | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | C++ upgrade to 7kyu   | A 🍔 for me who is currently on a diet                        | [✔️](https://www.instagram.com/p/ByNZ438Jjf1/?utm_source=ig_web_copy_link) |
 | **Both 7kyu**         | Go watch a movie🍿                                            |                                                              |
-| 6kyu for any language | Go to a good seafood🦀 buffet                                 |                                                              |
+| 6kyu for any language | Go to a good seafood🦀 buffet                                 | ✔️                                                            |
 | **Both 6kyu**         | Subscribe 1 month's [red](https://www.codewars.com/subscribe) of codewars | [✔️](https://www.instagram.com/p/ByNasvbpfN5/?utm_source=ig_web_copy_link) |
 | 5kyu for any language | Museum tour 🏹                                                |                                                              |
 | **Both 5kyu**         | Buy **Total War: Three Kingdoms**                            |                                                              |
@@ -50,7 +50,7 @@ The reason why I choose the above two languages are:
 - [x] Any language upgrade to 6kyu: 2019/5/27
 - [x] **Both 6kyu**: 2019/5/30
 - [x] First time 5kyu for any language: 2019/6/4
-- [ ] **Both 5kyu**
+- [x] **Both 5kyu**
 - [ ] C++ upgrade to 4kyu
 - [ ] **Both 4kyu**
 - [ ] C++ upgrade to 3kyu

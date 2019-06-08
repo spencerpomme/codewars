@@ -4,9 +4,10 @@
 #include <algorithm>
 #include <sstream>
 #include <set>
-#include <math.h>
+#include <cmath>
 #include <array>
-#include <utility> 
+#include <utility>
+#include <regex>
 
 using std::string;
 using std::vector;
@@ -17,7 +18,14 @@ using std::cout;
 using std::cin;
 using std::endl;
 using std::pair;
+using std::sqrtl;
+using std::regex;
+using std::sort;
+using std::max;
 
+string twoSort(vector<string> s);
+string replace(const string& s);
+bool isPrime(long long number);
 string bingo(vector<pair<string, int>> ticket, int win);
 string to_postfix(string infix);
 bool isPalindrom(const std::string& str);
@@ -32,8 +40,8 @@ string capitalize(string s, vector<int> idxs);
 unsigned long long minValue(vector <int> values);
 string highAndLow(const string&);
 vector<int> split(const string&, string);
-int min(const vector<int>&);
-int max(const vector<int>&);
+int _min(const vector<int>&);
+int _max(const vector<int>&);
 template <typename T>
 void print(const vector<T>&);
 template <typename T>
@@ -41,7 +49,50 @@ void print(const set<T>&);
 template <typename T>
 void print(T);
 
-// defined functions:
+// defined functions and classes
+vector<int> humanYearsCatYearsDogYears(int humanYears) {
+	vector<int> res = { humanYears };
+	int catYears = 15 * std::min(humanYears, 1) + 9 * std::min(humanYears - 1, 1) + 4 * max(humanYears - 2, 0);
+	int dogYears = 15 * std::min(humanYears, 1) + 9 * std::min(humanYears - 1, 1) + 5 * max(humanYears - 2, 0);
+	res.push_back(catYears);
+	res.push_back(dogYears);
+	return res;
+}
+
+string twoSort(vector<string> s)
+{
+	sort(s.begin(), s.end());
+	string word = "";
+	for (char ch : s.at(0)) {
+		word.push_back(ch);
+		word.append("***");
+	}
+	for (int i = 0; i < 3; i++)
+		word.pop_back();
+	return word;
+}
+
+string replace(const string& s)
+{
+	regex pattern("[aeiouAEIOU]");
+	
+	return regex_replace(s, pattern, "!");
+}
+
+class GapInPrimes
+{
+public:
+	static pair <long long, long long> gap(int g, long long m, long long n) {
+
+	}
+};
+
+bool isPrime(long long number) {
+	for (long long i = 2; i < sqrtl(long double(number)); ++i)
+		if (number % i == 0)
+			return false;
+	return true;
+}
 
 string bingo(vector<pair<string, int>> ticket, int win)
 {
@@ -160,8 +211,8 @@ unsigned long long minValue(vector <int> values)
 }
 
 string highAndLow(const string& numbers) {
-	int low = min(split(numbers, " "));
-	int high = max(split(numbers, " "));
+	int low = _min(split(numbers, " "));
+	int high = _max(split(numbers, " "));
 	string res;
 	res.append(std::to_string(high));
 	res.append(" ");
@@ -196,11 +247,11 @@ vector<int> split(const string& str, string delimiter) {
 	return res;
 }
 
-int min(const vector<int>& list) {
+int _min(const vector<int>& list) {
 	return *std::min_element(list.begin(), list.end());
 }
 
-int max(const vector<int>& list) {
+int _max(const vector<int>& list) {
 	return *std::max_element(list.begin(), list.end());
 }
 
@@ -224,3 +275,5 @@ template <typename T>
 void print(T str) {
 	cout << str << endl;
 }
+
+

@@ -2,8 +2,11 @@
 
 int main()
 {
-	typedef std::pair<std::string, int> p;
-	cout << bingo({ p("ABC", 65), p("HGR", 74), p("BYHT", 74) }, 2) << endl;
+	int num = 123456;
+	while (num > 0) {
+		cout << "digit: " << num % 10 << endl;
+		num = num / 10;
+	}
 
 	return 0;
 }

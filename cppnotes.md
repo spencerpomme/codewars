@@ -589,3 +589,23 @@ round(2.333333 * 100) / 100;
 // >>> 2.33
 ```
 
+
+
+
+
+#### 23. Function `min` and `max`  (C++ version)
+
+Consider the following scenario:
+
+```python
+bigger = max(10, 2)
+```
+
+In C++ you just need to include algorithm library:
+
+```c++
+#include <algorithm>
+
+int bigger = std::max(10, 2);
+```
+
