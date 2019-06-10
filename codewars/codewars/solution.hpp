@@ -8,6 +8,7 @@
 #include <array>
 #include <utility>
 #include <regex>
+#include <cstdlib>
 
 using std::string;
 using std::vector;
@@ -22,7 +23,10 @@ using std::sqrtl;
 using std::regex;
 using std::sort;
 using std::max;
+using std::to_string;
 
+string balancedNum(unsigned long long int number);
+bool comparelr(string left, string right);
 string twoSort(vector<string> s);
 string replace(const string& s);
 bool isPrime(long long number);
@@ -50,6 +54,30 @@ template <typename T>
 void print(T);
 
 // defined functions and classes
+string balancedNum(unsigned long long int number)
+{
+	string numstr = to_string(number);
+	int len = numstr.size();
+	if (len < 3)
+		return "Balanced";
+
+	string left = numstr.substr(0, len / 2 - 1 + len % 2);
+	string right = numstr.substr(len / 2 + 1, len - 1);
+	
+	return comparelr(left, right) ? "Balanced" : "Not Balanced";
+}
+
+bool comparelr(string left, string right) {
+	int suml = 0;
+	int sumr = 0;
+	for (auto ch : left)
+		suml += (int(ch) - 48);
+	for (auto ch : right)
+		sumr += (int(ch) - 48);
+	cout << "suml: " << suml << " " << "sumr: " << sumr << endl;
+	return suml == sumr;
+}
+
 vector<int> humanYearsCatYearsDogYears(int humanYears) {
 	vector<int> res = { humanYears };
 	int catYears = 15 * std::min(humanYears, 1) + 9 * std::min(humanYears - 1, 1) + 4 * max(humanYears - 2, 0);
