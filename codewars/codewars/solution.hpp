@@ -305,3 +305,16 @@ void print(T str) {
 }
 
 
+class PartList
+{
+public:
+	static vector<pair <string, string>> partlist(vector<string>& arr) {
+		vector<pair <string, string>> res;
+		for (auto ptr = arr.begin() + 1; ptr < arr.end(); ++ptr) {
+			vector<string> subleft(arr.begin(), ptr);
+			vector<string> subright(ptr, arr.end());
+
+		}
+	}
+};
+
