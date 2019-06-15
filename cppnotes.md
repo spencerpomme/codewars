@@ -591,8 +591,6 @@ round(2.333333 * 100) / 100;
 
 
 
-
-
 #### 23. Function `min` and `max`  (C++ version)
 
 Consider the following scenario:
@@ -608,4 +606,54 @@ In C++ you just need to include algorithm library:
 
 int bigger = std::max(10, 2);
 ```
+
+
+
+#### 24. Join strings in a vector into one string
+
+There are scenarios you'd like to do this:
+
+```c++
+class PartList
+{
+public:
+	static vector<pair<string, string>> partlist(vector<string>& arr)
+	{
+		vector<pair<string, string>> result;
+		auto combine = [](string a, string b) { return a + ' ' + b; };
+		for (int i = 1; i < arr.size(); i++)
+		{
+			result.emplace_back(
+				accumulate(arr.begin() + 1, arr.begin() + i, arr[0], combine),
+				accumulate(arr.begin() + i + 1, arr.end(), arr[i], combine));
+		}
+		return result;
+	}
+};
+```
+
+
+
+#### 25. Dynamic Planning (simplest example)
+
+Consider a [problem](<https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c>). The solution could simply be in O(n):
+
+```c++
+#include <vector>
+
+using namespace std;
+
+int maxSequence(const vector<int>& arr) {
+  int max_sum = 0;
+  int sum = 0;
+	for (auto ele : arr) {
+		sum = sum > 0 ? sum + ele : ele;
+        if (sum > max_sum)
+            max_sum = sum;
+	}
+	return max_sum;
+}
+```
+
+
 

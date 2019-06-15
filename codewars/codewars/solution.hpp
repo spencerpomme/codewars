@@ -9,6 +9,7 @@
 #include <utility>
 #include <regex>
 #include <cstdlib>
+#include <numeric>
 
 using std::string;
 using std::vector;
@@ -24,7 +25,9 @@ using std::regex;
 using std::sort;
 using std::max;
 using std::to_string;
+using std::accumulate;
 
+int maxSequence(const vector<int>& arr);
 string balancedNum(unsigned long long int number);
 bool comparelr(string left, string right);
 string twoSort(vector<string> s);
@@ -54,6 +57,17 @@ template <typename T>
 void print(T);
 
 // defined functions and classes
+int maxSequence(const vector<int>& arr) {
+	int max_sum = 0;
+	int sum = 0;
+	for (auto ele : arr) {
+		sum = sum > 0 ? sum + ele : ele;
+		if (sum > max_sum)
+			max_sum = sum;
+	}
+	return max_sum;
+}
+
 string balancedNum(unsigned long long int number)
 {
 	string numstr = to_string(number);
@@ -304,17 +318,28 @@ void print(T str) {
 	cout << str << endl;
 }
 
+template <typename T>
+void print(const pair<T, T>& p) {
+	cout << "{";
+	for (auto item : p)
+		cout << "{" << p.first << "," << p.second << "} ";
+}
+
 
 class PartList
 {
 public:
-	static vector<pair <string, string>> partlist(vector<string>& arr) {
-		vector<pair <string, string>> res;
-		for (auto ptr = arr.begin() + 1; ptr < arr.end(); ++ptr) {
-			vector<string> subleft(arr.begin(), ptr);
-			vector<string> subright(ptr, arr.end());
-
+	static vector<pair<string, string>> partlist(vector<string>& arr)
+	{
+		vector<pair<string, string>> result;
+		auto combine = [](string a, string b) { return a + ' ' + b; };
+		for (int i = 1; i < arr.size(); i++)
+		{
+			result.emplace_back(
+				accumulate(arr.begin() + 1, arr.begin() + i, arr[0], combine),
+				accumulate(arr.begin() + i + 1, arr.end(), arr[i], combine));
 		}
+		return result;
 	}
 };
 
