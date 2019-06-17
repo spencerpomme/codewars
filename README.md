@@ -1,11 +1,7 @@
 # codewars
 #### My crusade to 1 kyu. 
 
-Alright, alright, I find myself かなり下手 as a programmer than I supposed to be. Although I'm about to graduate from gradudate school, my whiteboard coding interviews are often **as miserable as うんこ**. So it's time to make a difference! 
-
-<img src="assets/act3.png" width="500">
-
-### So here's the plan:
+So here's the plan:
 
 I'll practice **every day** on coding, from simple task to the more sophisticated ones. Originally I thought about the famous (or infamous?🙉) [Leetcode](https://leetcode.com/), but later I think this is mostly focused on algorithm and the language specific tricks are not paid as much attention. Maybe I will finally come back for it but obviously not at this stage (become more fluent in the language itself).
 
@@ -21,7 +17,7 @@ The reason why I choose the above two languages are:
 2. I had most experience with these two and really like to bring familiarity to the next level
 3. I will use them in work a lot in the future
 
-**To become an 1kyu is not a piece of cake (at least for me🙄 ). And it could take long to finally get there. So I made an Achievement-Reward list to encourage me keep going:**
+**To become an 1kyu is not a piece of cake. And it could take long to finally get there. So I made an Achievement-Reward list to encourage me keep going:**
 
 ### Achievement Reward List from 9kyu to 1kyu:
 
