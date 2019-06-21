@@ -1,10 +1,10 @@
 ﻿#include "solution.hpp"
 
 int main() {
-	PartList problem;
-	vector<string> vec{ "cdIw", "tzIy", "xDu", "rThG" };
-	auto result = problem.partlist(vec);
-	for (auto r : result)
-		cout << r.first << r.second << endl;
+	string x = "abce dfg higs soil";
+	auto it = x.begin();
+	auto it2 = it + 1;
+	cout << *it << " " << *it2;
+
 	return 0;
 }

@@ -26,6 +26,8 @@ using std::sort;
 using std::max;
 using std::to_string;
 using std::accumulate;
+using std::stoi;
+using std::stringstream;
 
 int maxSequence(const vector<int>& arr);
 string balancedNum(unsigned long long int number);
@@ -55,8 +57,71 @@ template <typename T>
 void print(const set<T>&);
 template <typename T>
 void print(T);
+string highandLow(const string& numbers);
+string highestScoringWord(const string& str);
 
 // defined functions and classes
+string highestScoringWord(const string& str)
+{
+	auto lp1 = str.begin();
+	auto rp1 = str.begin();
+	auto lp2 = lp1;
+	auto rp2 = rp1;
+	auto maxl = lp1;
+	auto maxr = lp2;
+	int sum1 = 0;
+	int sum2 = 0;
+	while ((rp1 < str.end()) && (rp2 < str.end())) {
+		cout << "*rp1: " << *rp1 << endl;
+		while (*rp1 != ' ') {
+			sum1 += (int(*rp1) - 96);
+			++rp1;
+		}
+		lp2 = rp1 + 1;
+		rp2 = lp2;
+		while (*rp2 != ' ') {
+			sum2 += (int(*rp2) - 96);
+			++rp2;
+		}
+		if (sum2 > sum1) {
+			lp1 = rp2 + 1;
+			rp1 = lp1;
+			sum1 = 0;
+			maxl = lp2;
+			maxr = rp2;
+		}
+		else {
+			lp2 = rp2 + 1;
+			rp2 = lp2;
+			sum2 = 0;
+			maxl = lp1;
+			maxr = rp1;
+		}
+	}
+	string res = "";
+	for (auto i = maxl; i < maxr; i++)
+		res.push_back(*i);
+	return res;
+}
+
+string highandLow(const string& numbers) {
+	stringstream ss(numbers);
+	string temp;
+	int max = -2147483647;
+	int min = 2147483647;
+	int number;
+	while (ss >> temp) {
+		if (temp != " ") {
+			number = stoi(temp);
+			if (number > max)
+				max = number;
+			if (number < min)
+				min = number;
+		}
+	}
+	return to_string(max) + " " + to_string(min);
+}
+
 int maxSequence(const vector<int>& arr) {
 	int max_sum = 0;
 	int sum = 0;
