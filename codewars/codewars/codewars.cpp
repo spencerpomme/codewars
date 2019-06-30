@@ -1,10 +1,11 @@
 ﻿#include "solution.hpp"
+#include <cstring>
 
 int main() {
-	string x = "abce dfg higs soil";
-	auto it = x.begin();
-	auto it2 = it + 1;
-	cout << *it << " " << *it2;
-
+	
+	int mda[2][3] = { {1,2,3}, {4,5,6} };
+	for (auto& row : mda)
+		for (auto col : row)
+			cout << col << endl;
 	return 0;
 }

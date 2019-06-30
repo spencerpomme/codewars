@@ -28,6 +28,7 @@ using std::to_string;
 using std::accumulate;
 using std::stoi;
 using std::stringstream;
+using std::getline;
 
 int maxSequence(const vector<int>& arr);
 string balancedNum(unsigned long long int number);
@@ -59,8 +60,30 @@ template <typename T>
 void print(T);
 string highandLow(const string& numbers);
 string highestScoringWord(const string& str);
-
+int addAdjacent();
+unsigned int hotpo(unsigned int n);
 // defined functions and classes
+
+unsigned int hotpo(unsigned int n) {
+	if (n == 0 || n == 1) return 0;
+	else if (n % 2 == 0) return hotpo(n / 2) + 1;
+	else if (n % 2 != 0) return hotpo(3 * n + 1) + 1;
+}
+
+int addAdjacent() {
+	string line;
+	getline(cin, line);
+	stringstream is(line);
+	vector<int> numbers;
+	int temp;
+	while (is >> temp)
+		numbers.push_back(temp);
+
+	print(numbers);
+	
+	return 0;
+}
+
 string highestScoringWord(const string& str)
 {
 	auto lp1 = str.begin();
