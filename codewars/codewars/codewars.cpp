@@ -1,15 +1,22 @@
 ﻿#include "solution.hpp"
 #include <cstring>
+#include <stdexcept>
 
 int main() {
-	int grade;
-	string lettergrade;
-	cin >> grade;
-	const vector<string> scores = { "F", "D", "C", "B", "A", "A++" };
-	if (grade < 60)
-		lettergrade = scores[0];
-	else
-		lettergrade = scores[(grade - 50) / 10];
-	cout << lettergrade << endl;
+	
+	int nume, denum;
+	cout << "Please input two numbers: " << endl;
+	cin >> nume >> denum;
+	cout << "Calculating " << nume << "/" << denum << endl;
+	try {
+		if (denum == 0)
+			throw std::runtime_error("denumerator cannot be 0.");
+		int res = nume / denum;
+		cout << "res = " << res << endl;
+	}
+	catch (std::runtime_error err) {
+		cout << err.what() << endl;
+	}
+
 	return 0;
 }

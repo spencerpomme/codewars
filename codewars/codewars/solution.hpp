@@ -52,17 +52,34 @@ string highAndLow(const string&);
 vector<int> split(const string&, string);
 int _min(const vector<int>&);
 int _max(const vector<int>&);
-template <typename T>
-void print(const vector<T>&);
-template <typename T>
-void print(const set<T>&);
-template <typename T>
-void print(T);
+
+template <typename T> void print(const vector<T>&);
+template <typename T> void print(const set<T>&);
+template <typename T> void print(T);
+template <typename T> void print();
+
 string highandLow(const string& numbers);
 string highestScoringWord(const string& str);
 int addAdjacent();
 unsigned int hotpo(unsigned int n);
+int countVowel(string);
+
 // defined functions and classes
+int countVowel(string line) {
+	int vcnt = 0;
+	int ccnt = 0;
+	int scnt = 0;
+
+	for (auto ch : line) {
+		switch (ch) {
+		case 'a': case 'e': case 'i': case 'o': case 'u': ++vcnt; break;
+		case ' ': ++scnt; break;
+		default: ++ccnt;
+		}
+	}
+	cout << "vowel: " << vcnt << " | " << "consona: " << ccnt << " | " << "space: " << scnt << endl;
+	return vcnt;
+}
 
 unsigned int hotpo(unsigned int n) {
 	if (n == 0 || n == 1) return 0;
