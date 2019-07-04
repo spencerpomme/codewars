@@ -10,6 +10,8 @@
 #include <regex>
 #include <cstdlib>
 #include <numeric>
+#include <cstring>
+#include <stdexcept>
 
 using std::string;
 using std::vector;
