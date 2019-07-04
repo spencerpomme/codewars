@@ -1,15 +1,9 @@
 ﻿#include "solution.hpp"
-double calc(double);
 
 int main() {
-
-	decltype(calc(2.0)) res;
-	res = calc(2);
-
+	int j[2] = { 0, 1 };
+	auto ptr = std::begin(j);
+	cout << "ptr: " << ptr << " " << "*ptr: " << *ptr << endl;
 	return 0;
-}
-
-double calc(double num) {
-	return num * 2;
 }
 
