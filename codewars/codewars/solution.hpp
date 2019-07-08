@@ -12,6 +12,8 @@
 #include <numeric>
 #include <cstring>
 #include <stdexcept>
+#include <initializer_list>
+#include <ctime>
 
 using std::string;
 using std::vector;
@@ -31,6 +33,7 @@ using std::accumulate;
 using std::stoi;
 using std::stringstream;
 using std::getline;
+using std::initializer_list;
 
 int maxSequence(const vector<int>& arr);
 string balancedNum(unsigned long long int number);
@@ -58,7 +61,6 @@ int _max(const vector<int>&);
 template <typename T> void print(const vector<T>&);
 template <typename T> void print(const set<T>&);
 template <typename T> void print(T);
-template <typename T> void print();
 
 string highandLow(const string& numbers);
 string highestScoringWord(const string& str);
@@ -66,7 +68,95 @@ int addAdjacent();
 unsigned int hotpo(unsigned int n);
 int countVowel(string);
 
+// c++ primer some interesting problems
+int compare(const int val, const int* ptr);
+int listSum(initializer_list<int> list);
+const string& shorterString(const string& s1, const string& s2);
+// original array pointer return type declaration:
+string(&func1(string(&ref)[3]))[3];
+// using typedef
+using strarref = string(&)[3];
+strarref func2(strarref in);
+// using trailing return type syntax
+auto func3(string(&ref)[3])->string(&)[3];
+
+int lookup(int);
+int lookup(int*);
+int lookup(const int*);
+
+void f();
+void f(int);
+void f(int, int);
+void f(double, double = 3.14);
+
+void f() {
+	cout << "f() is called." << endl;
+}
+
+void f(int n) {
+	cout << "f(int) is called. " << " n = " << n << endl;
+}
+
+void f(int n, int m) {
+	cout << "f(int, int) is called. " << "numbers: " << n << ", " << m << endl;
+}
+
+void f(double x, double y) {
+	cout << "f(double, double=3.14) is called. " << "numbers: " << x << ", " << y << endl;
+}
+
 // defined functions and classes
+int lookup(int num) {
+	cout << "First definition ";
+	return num;
+}
+
+int lookup(int* ptr) {
+	cout << "Second definition ";
+	return *ptr;
+}
+
+int lookup(const int* num) {
+	cout << "Third definition ";
+	return *num;
+}
+
+string(&func1(string(&ref)[3]))[3]{
+
+	return ref;
+}
+
+strarref func2(strarref in) {
+	return in;
+}
+
+auto func3(string(&ref)[3])->string(&)[3]{
+	return ref;
+}
+
+void recursivePrint(vector<int> list, int index) {
+	auto size = list.size();
+	if (size != 0 && index < size) {
+		cout << list[index] << " ";
+		recursivePrint(list, index + 1);
+	}
+}
+
+
+const string& shorterString(const string& s1, const string& s2) {
+	return s1.size() <= s2.size() ? s1 : s2;
+}
+
+int listSum(initializer_list<int> list) {
+	int sum = 0;
+	for (auto ele : list)
+		sum += ele;
+	return sum;
+}
+
+int compare(const int val, const int* ptr) {
+	return val > * ptr ? val : *ptr;
+}
 int countVowel(string line) {
 	int vcnt = 0;
 	int ccnt = 0;
