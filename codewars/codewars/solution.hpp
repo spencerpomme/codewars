@@ -68,7 +68,7 @@ int addAdjacent();
 unsigned int hotpo(unsigned int n);
 int countVowel(string);
 
-// c++ primer some interesting problems
+//------------------------ c++ primer some interesting problem -------------------------//
 int compare(const int val, const int* ptr);
 int listSum(initializer_list<int> list);
 const string& shorterString(const string& s1, const string& s2);
@@ -88,6 +88,30 @@ void f();
 void f(int);
 void f(int, int);
 void f(double, double = 3.14);
+
+int add(int, int);
+int sub(int, int);
+int mul(int, int);
+int divide(int, int);
+
+//---------------------------------------------------------------------------------------//
+int add(int x, int y) {
+	return x + y;
+}
+
+int sub(int x, int y) {
+	return x - y;
+}
+
+int mul(int x, int y) {
+	return x * y;
+}
+
+int divide(int x, int y) {
+	if (y == 0)
+		throw std::exception("Division by zero.");
+	return x / y;
+}
 
 void f() {
 	cout << "f() is called." << endl;
