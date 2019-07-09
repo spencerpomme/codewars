@@ -304,7 +304,7 @@ In C++ we can do the similar:
 // s could be any sequence, e.g. string, vector, set, etc.
 // default sort ordering is ascending, provide a compare object if need descend ordering
 #include <algorithm>
-std::sort(s.begin(), s.end(), [](const char& a, const char& b) { return a > b; });
+std::sort(s.begin(), s.end(), [](const type& a, const type& b) { return a > b; });
 ```
 
 
@@ -657,7 +657,38 @@ int maxSequence(const vector<int>& arr) {
 
 
 
-#### 26. Read a line of numbers into a container
+#### 26. Vector element membership check
+
+```c++
+const bool is_in = std::find(vec.begin(), vec.end(), element) != vec.end();
+```
+
+Very simple.
+
+
+
+#### 27. Vector Partition According to a criterion
+
+See an example from [this problem](https://www.codewars.com/kata/sort-out-the-men-from-boys-1/cpp). The best practice is shown below:
+
+```c++
+#include <functional> // greater
+#include <vector>
+#include <algorithm> // sort, unique
+
+std::vector<int> menFromBoys(std::vector<int> values)
+{
+    auto it = std::partition(begin(values), end(values), [](auto n) {return n % 2 == 0;});
+    std::sort(begin(values), it);
+    std::sort(it, end(values), std::greater<>());
+    values.erase(std::unique(begin(values), end(values)), end(values));
+    return values;
+}
+```
+
+
+
+
 
 
 

@@ -14,6 +14,7 @@
 #include <stdexcept>
 #include <initializer_list>
 #include <ctime>
+#include <functional>
 
 using std::string;
 using std::vector;
@@ -34,6 +35,8 @@ using std::stoi;
 using std::stringstream;
 using std::getline;
 using std::initializer_list;
+using std::find;
+using std::greater;
 
 int maxSequence(const vector<int>& arr);
 string balancedNum(unsigned long long int number);
@@ -93,6 +96,8 @@ int add(int, int);
 int sub(int, int);
 int mul(int, int);
 int divide(int, int);
+
+vector <int> menFromBoys(vector <int> values);
 
 //---------------------------------------------------------------------------------------//
 int add(int x, int y) {
@@ -563,4 +568,14 @@ public:
 		return result;
 	}
 };
+
+
+vector<int> menFromBoys(vector<int> values)
+{
+	auto it = partition(begin(values), end(values), [](auto n) {return n % 2 == 0; });
+	sort(begin(values), it);
+	sort(it, end(values), greater<>());
+	values.erase(unique(begin(values), end(values)), end(values));
+	return values;
+}
 
