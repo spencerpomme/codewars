@@ -37,6 +37,7 @@ using std::getline;
 using std::initializer_list;
 using std::find;
 using std::greater;
+using std::cerr;
 
 int maxSequence(const vector<int>& arr);
 string balancedNum(unsigned long long int number);

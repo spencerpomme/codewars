@@ -1,9 +1,14 @@
 ﻿#include "solution.hpp"
+#include "primer_objects.hpp"
 
 int main() {
-	
-	vector<int> vec{ 49,818,-282,900,928,281,-282,-1 };
-	print(menFromBoys(vec));
-
-	return 0;
+	while (true) {
+		// the simplest event loop :)
+		string cat;
+		getline(cin, cat);
+		if (cat != "")
+			cout << "cat is named: " << cat << endl;
+		else
+			break;
+	}
 }
