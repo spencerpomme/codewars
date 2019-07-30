@@ -630,3 +630,35 @@ std::string declareWinner(Fighter* fighter1, Fighter* fighter2, std::string firs
 	else
 		return a1 > a2 ? fighter1->getName() : fighter2->getName();
 }
+
+class Sapien {
+private:
+	int age;
+public:
+	Sapien(int age) : age(age) {}
+	int getAge() const { return age; }
+};
+
+bool operator==(const Sapien& a, const Sapien& b) {
+	return a.getAge() == b.getAge();
+}
+
+bool operator!=(const Sapien& a, const Sapien& b) {
+	return a.getAge() != b.getAge();
+}
+
+bool operator<=(const Sapien& a, const Sapien& b) {
+	return a.getAge() <= b.getAge();
+}
+
+bool operator>=(const Sapien& a, const Sapien& b) {
+	return a.getAge() >= b.getAge();
+}
+
+bool operator<(const Sapien& a, const Sapien& b) {
+	return a.getAge() < b.getAge();
+}
+
+bool operator>(const Sapien& a, const Sapien& b) {
+	return a.getAge() > b.getAge();
+}

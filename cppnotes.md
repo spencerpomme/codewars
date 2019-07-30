@@ -710,3 +710,38 @@ while (true) {
 
 In C++ and Python, operator behaviour can be redefined to better suit the purpose of classes. 
 
+```c++
+// a simple example
+class Sapien {
+private:
+	int age;
+public:
+	Sapien(int age) : age(age) {}
+	int getAge() const { return age; }
+};
+
+bool operator==(const Sapien& a, const Sapien& b) {
+	return a.getAge() == b.getAge();
+}
+
+bool operator!=(const Sapien& a, const Sapien& b) {
+	return a.getAge() != b.getAge();
+}
+
+bool operator<=(const Sapien& a, const Sapien& b) {
+	return a.getAge() <= b.getAge();
+}
+
+bool operator>=(const Sapien& a, const Sapien& b) {
+	return a.getAge() >= b.getAge();
+}
+
+bool operator<(const Sapien& a, const Sapien& b) {
+	return a.getAge() < b.getAge();
+}
+
+bool operator>(const Sapien& a, const Sapien& b) {
+	return a.getAge() > b.getAge();
+}
+```
+
