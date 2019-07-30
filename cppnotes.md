@@ -692,3 +692,21 @@ std::vector<int> menFromBoys(std::vector<int> values)
 
 Sometimes in C++ we want a kind of command line interaction that each line input is a record and flushed by an enter. This process continues until an empty line is entered. For the simplest example, where we don't consider type check or corner cases like that, is not as simple as you might expect:
 
+```c++
+while (true) {
+		// the simplest event loop :)
+		string cat;
+		getline(cin, cat);
+		if (cat != "")
+			cout << "cat is named: " << cat << endl;
+		else
+			break;
+	}
+```
+
+
+
+#### 29. Operator Overloading
+
+In C++ and Python, operator behaviour can be redefined to better suit the purpose of classes. 
+

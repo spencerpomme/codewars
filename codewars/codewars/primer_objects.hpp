@@ -65,16 +65,6 @@ Sales_data add(const Sales_data& lhs, const Sales_data& rhs) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 //-------------------------------------------------| ∑÷∏Óœﬂ |------------------------------------------------//
 // Person ¿‡
 struct Person {
@@ -106,3 +96,35 @@ ostream& pprint(ostream& os, const Person& p) {
 	os << p.name << " " << p.address << endl;
 	return os;
 }
+
+class Y; // forward declaration
+
+class X {
+	Y *yptr;
+};
+
+class Y {
+	X xobj;
+};
+
+class NoDefault {
+private:
+	int init_val;
+public:
+	NoDefault(int init) : init_val(init) {};
+	// member functions
+	int getVal() {
+		return init_val;
+	}
+};
+
+class C {
+private:
+	NoDefault member;
+public:
+	C(int init=2) : member(init) {};
+	// member functions 
+	NoDefault getMember() {
+		return member;
+	}
+};

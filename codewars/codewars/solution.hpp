@@ -39,6 +39,46 @@ using std::find;
 using std::greater;
 using std::cerr;
 
+class Fighter
+{
+private:
+	std::string name;
+
+	int health;
+
+	int damagePerAttack;
+
+public:
+	Fighter(std::string name, int health, int damagePerAttack)
+	{
+		this->name = name;
+		this->health = health;
+		this->damagePerAttack = damagePerAttack;
+	}
+
+	~Fighter() { };
+
+	std::string getName()
+	{
+		return name;
+	}
+
+	int getHealth()
+	{
+		return health;
+	}
+
+	int getDamagePerAttack()
+	{
+		return damagePerAttack;
+	}
+
+	void setHealth(int value)
+	{
+		health = value;
+	}
+};
+
 int maxSequence(const vector<int>& arr);
 string balancedNum(unsigned long long int number);
 bool comparelr(string left, string right);
@@ -71,6 +111,7 @@ string highestScoringWord(const string& str);
 int addAdjacent();
 unsigned int hotpo(unsigned int n);
 int countVowel(string);
+std::string declareWinner(Fighter* fighter1, Fighter* fighter2, std::string firstAttacker);
 
 //------------------------ c++ primer some interesting problem -------------------------//
 int compare(const int val, const int* ptr);
@@ -580,3 +621,12 @@ vector<int> menFromBoys(vector<int> values)
 	return values;
 }
 
+std::string declareWinner(Fighter* fighter1, Fighter* fighter2, std::string firstAttacker)
+{
+	int a1 = ceil(static_cast<double>(fighter1->getHealth()) / fighter2->getDamagePerAttack());
+	int a2 = ceil(static_cast<double>(fighter2->getHealth()) / fighter1->getDamagePerAttack());
+	if (a1 == a2)
+		return firstAttacker;
+	else
+		return a1 > a2 ? fighter1->getName() : fighter2->getName();
+}
