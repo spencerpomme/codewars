@@ -7,6 +7,11 @@ using std::map;
 using std::pair;
 using std::queue;
 
+struct Node {
+	int val;
+	Node* prev;
+	Node* next;
+};
 
 class LRUCache {
 public:
