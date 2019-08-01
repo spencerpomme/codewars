@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <sstream>
 #include <set>
+#include <map>
 #include <cmath>
 #include <array>
 #include <utility>
@@ -15,6 +16,7 @@
 #include <initializer_list>
 #include <ctime>
 #include <functional>
+#include <queue>
 
 using std::string;
 using std::vector;
@@ -38,6 +40,8 @@ using std::initializer_list;
 using std::find;
 using std::greater;
 using std::cerr;
+using std::map;
+using std::queue;
 
 class Fighter
 {
