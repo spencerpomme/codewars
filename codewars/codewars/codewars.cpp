@@ -1,4 +1,5 @@
 ﻿#include "cache.hpp"
+#include "solution.hpp"
 #include <iostream>
 
 using std::cout;
@@ -17,6 +18,14 @@ int main() {
 	cout << cache->get(1) << endl;       // returns -1 (not found)
 	cout << cache->get(3) << endl;       // returns 3
 	cout << cache->get(4) << endl;       // returns 4
+
+	vector<int> node{ 1,2,3,4 };
+	print(node);
+	vector<vector<int>> nodes;
+	nodes.push_back(node);
+	for (auto node : nodes) {
+		print(node);
+	}
 
 	return 0;
 }

@@ -745,3 +745,25 @@ bool operator>(const Sapien& a, const Sapien& b) {
 }
 ```
 
+
+
+#### 30. Read File
+
+```c++
+#include <fstream> // header file needed
+#include <string>
+using std::ifstream; // in file stream
+using std::string;
+
+int main() {
+    string path = "./to_be_loaded.csv"
+    ifstream file(path);
+    if (file) {
+    string line;
+    while (getline(myfile, line)) {
+      // ...do something...
+    }
+  }
+}
+```
+
